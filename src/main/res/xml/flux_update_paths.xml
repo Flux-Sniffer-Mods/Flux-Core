@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Updates handed to Android's installer (UpdateInstaller) -->
+<paths>
+    <cache-path name="flux_updates" path="flux-updates/" />
+</paths>

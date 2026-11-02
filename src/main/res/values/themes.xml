@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The Flux apps' window, under their Compose pages -->
+    <style name="Theme.Flux" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/flux_window</item>
+    </style>
+    <color name="flux_window">#FFFDFBFF</color>
+</resources>
