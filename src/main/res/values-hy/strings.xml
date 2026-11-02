@@ -73,6 +73,7 @@
     <string name="crash_log_description">Android-ի գրառումը %1$s-ի վերջին խափանումների մասին՝ պահված %2$s-ում՝ կիսվելու համար։</string>
     <string name="crash_log_saved">Պահված է %1$s-ում</string>
     <string name="crash_log_clear_description">Դատարկում է հեռախոսի և %1$s-ի մատյանները, որպեսզի հաջորդ վթարի մատյանը պարունակի միայն այսուհետ կատարվածը և արագ պահպանվի։</string>
+    <string name="flux_app_page_description">Թարմացումներ, shell-ի հասանելիություն, խափանումների մատյանը և Flux-ի մյուս հավելվածները։</string>
     <string name="flux_link_permission">Խոսել Flux-ի մյուս հավելվածների հետ</string>
     <string name="flux_search">Որոնել</string>
     <string name="flux_search_clear">Մաքրել որոնումը</string>

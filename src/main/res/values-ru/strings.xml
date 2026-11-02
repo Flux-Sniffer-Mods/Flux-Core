@@ -73,6 +73,7 @@
     <string name="crash_log_description">Запись Android о последних сбоях %1$s, сохранённая в %2$s, чтобы поделиться.</string>
     <string name="crash_log_saved">Сохранено в %1$s</string>
     <string name="crash_log_clear_description">Очищает журналы телефона и собственный журнал %1$s, чтобы следующий журнал сбоев содержал только происходящее с этого момента и сохранялся быстро.</string>
+    <string name="flux_app_page_description">Обновления, доступ к оболочке, журнал сбоев и другие приложения Flux.</string>
     <string name="flux_link_permission">Связь с другими приложениями Flux</string>
     <string name="flux_search">Поиск</string>
     <string name="flux_search_clear">Очистить поиск</string>

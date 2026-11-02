@@ -73,6 +73,7 @@
     <string name="crash_log_description">Androids Aufzeichnung der letzten Abstürze von %1$s, gespeichert unter %2$s zum Teilen.</string>
     <string name="crash_log_saved">Gespeichert unter %1$s</string>
     <string name="crash_log_clear_description">Leert die Logs des Telefons und die eigene Aufzeichnung von %1$s, damit das nächste Absturzprotokoll nur Neues enthält und schnell gespeichert wird.</string>
+    <string name="flux_app_page_description">Updates, Shell-Zugriff, das Absturzprotokoll und die anderen Flux-Apps.</string>
     <string name="flux_link_permission">Mit den anderen Flux-Apps sprechen</string>
     <string name="flux_search">Suchen</string>
     <string name="flux_search_clear">Suche leeren</string>

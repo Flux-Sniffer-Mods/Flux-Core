@@ -73,6 +73,7 @@
     <string name="crash_log_description">Le relevé Android des derniers plantages de %1$s, enregistré dans %2$s pour le partager.</string>
     <string name="crash_log_saved">Enregistré dans %1$s</string>
     <string name="crash_log_clear_description">Vide les journaux du téléphone et celui de %1$s, pour que le prochain journal de plantage ne contienne que ce qui se passe désormais et s\'enregistre vite.</string>
+    <string name="flux_app_page_description">Mises à jour, accès au shell, le journal des plantages et les autres applis Flux.</string>
     <string name="flux_link_permission">Parler aux autres applis Flux</string>
     <string name="flux_search">Rechercher</string>
     <string name="flux_search_clear">Effacer la recherche</string>

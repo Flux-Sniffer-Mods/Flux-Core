@@ -73,6 +73,7 @@
     <string name="crash_log_description">Il registro di Android degli ultimi arresti di %1$s, salvato in %2$s per condividerlo.</string>
     <string name="crash_log_saved">Salvato in %1$s</string>
     <string name="crash_log_clear_description">Svuota i log del telefono e quello di %1$s, così il prossimo registro dei crash contiene solo ciò che accade da ora e si salva in fretta.</string>
+    <string name="flux_app_page_description">Aggiornamenti, accesso alla shell, il registro degli arresti anomali e le altre app Flux.</string>
     <string name="flux_link_permission">Parlare con le altre app Flux</string>
     <string name="flux_search">Cerca</string>
     <string name="flux_search_clear">Cancella la ricerca</string>

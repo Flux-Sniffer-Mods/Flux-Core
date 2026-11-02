@@ -73,6 +73,7 @@
     <string name="crash_log_description">El registro de Android de los últimos fallos de %1$s, guardado en %2$s para compartir.</string>
     <string name="crash_log_saved">Guardado en %1$s</string>
     <string name="crash_log_clear_description">Vacía los registros del teléfono y el propio registro de %1$s, para que el siguiente registro de fallos contenga solo lo que ocurra a partir de ahora y se guarde rápido.</string>
+    <string name="flux_app_page_description">Actualizaciones, acceso al shell, el registro de fallos y las otras apps de Flux.</string>
     <string name="flux_link_permission">Hablar con las otras apps de Flux</string>
     <string name="flux_search">Buscar</string>
     <string name="flux_search_clear">Borrar la búsqueda</string>

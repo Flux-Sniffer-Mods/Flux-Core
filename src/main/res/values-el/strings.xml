@@ -73,6 +73,7 @@
     <string name="crash_log_description">Η καταγραφή του Android για τα τελευταία σφάλματα του %1$s, αποθηκευμένη στο %2$s για κοινοποίηση.</string>
     <string name="crash_log_saved">Αποθηκεύτηκε στο %1$s</string>
     <string name="crash_log_clear_description">Αδειάζει τα αρχεία καταγραφής του τηλεφώνου και του %1$s, ώστε το επόμενο αρχείο σφαλμάτων να περιέχει μόνο ό,τι συμβαίνει από τώρα και να αποθηκεύεται γρήγορα.</string>
+    <string name="flux_app_page_description">Ενημερώσεις, πρόσβαση κελύφους, το αρχείο σφαλμάτων και οι άλλες εφαρμογές Flux.</string>
     <string name="flux_link_permission">Επικοινωνία με τις άλλες εφαρμογές Flux</string>
     <string name="flux_search">Αναζήτηση</string>
     <string name="flux_search_clear">Καθαρισμός αναζήτησης</string>

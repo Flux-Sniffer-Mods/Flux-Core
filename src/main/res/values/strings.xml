@@ -73,6 +73,7 @@
     <string name="crash_log_description">Android\'s record of %1$s\'s last crashes, saved to %2$s to share.</string>
     <string name="crash_log_saved">Saved to %1$s</string>
     <string name="crash_log_clear_description">Empties the phone\'s logs and %1$s\'s own record, so the next crash log holds only what happens from now and saves quickly.</string>
+    <string name="flux_app_page_description">Updates, shell access, the crash log and the other Flux apps.</string>
     <string name="flux_link_permission">Talk to the other Flux apps</string>
     <string name="flux_search">Search</string>
     <string name="flux_search_clear">Clear the search</string>

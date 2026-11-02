@@ -73,6 +73,7 @@
     <string name="crash_log_description">Zapis Androida ostatnich awarii %1$s, zapisany w %2$s do udostępnienia.</string>
     <string name="crash_log_saved">Zapisano w %1$s</string>
     <string name="crash_log_clear_description">Czyści logi telefonu i własny zapis %1$s, aby następny dziennik awarii zawierał tylko to, co stanie się od teraz, i zapisywał się szybko.</string>
+    <string name="flux_app_page_description">Aktualizacje, dostęp do powłoki, dziennik awarii i inne aplikacje Flux.</string>
     <string name="flux_link_permission">Rozmowa z innymi aplikacjami Flux</string>
     <string name="flux_search">Szukaj</string>
     <string name="flux_search_clear">Wyczyść wyszukiwanie</string>

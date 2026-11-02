@@ -73,6 +73,7 @@
     <string name="crash_log_description">Bản ghi của Android về các sự cố gần nhất của %1$s, lưu vào %2$s để chia sẻ.</string>
     <string name="crash_log_saved">Đã lưu vào %1$s</string>
     <string name="crash_log_clear_description">Xóa nhật ký của điện thoại và nhật ký riêng của %1$s, để nhật ký sự cố tiếp theo chỉ chứa những gì xảy ra từ bây giờ và lưu nhanh.</string>
+    <string name="flux_app_page_description">Cập nhật, quyền truy cập shell, nhật ký sự cố và các ứng dụng Flux khác.</string>
     <string name="flux_link_permission">Trao đổi với các ứng dụng Flux khác</string>
     <string name="flux_search">Tìm kiếm</string>
     <string name="flux_search_clear">Xóa tìm kiếm</string>

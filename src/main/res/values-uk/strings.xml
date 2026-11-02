@@ -73,6 +73,7 @@
     <string name="crash_log_description">Запис Android про останні збої %1$s, збережений у %2$s, щоб поділитися.</string>
     <string name="crash_log_saved">Збережено в %1$s</string>
     <string name="crash_log_clear_description">Очищує журнали телефона та власний журнал %1$s, щоб наступний журнал збоїв містив лише те, що станеться відтепер, і зберігався швидко.</string>
+    <string name="flux_app_page_description">Оновлення, доступ до оболонки, журнал збоїв та інші застосунки Flux.</string>
     <string name="flux_link_permission">Зв’язок з іншими застосунками Flux</string>
     <string name="flux_search">Пошук</string>
     <string name="flux_search_clear">Очистити пошук</string>
