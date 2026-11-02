@@ -16,8 +16,11 @@ object FluxMigration {
     private const val TAG = "FluxMigration"
     private const val KEY_DONE = "migration_from_hub_done"
 
-    /** Blocking: off the main thread. Whether anything came over. */
-    fun importOnce(context: Context, prefixes: List<String>): Boolean {
+    /**
+     * Blocking: off the main thread. Whether anything came over. With [files] (paths under the
+     * app's own files, as the hub had them), those files too, unless they're here already.
+     */
+    fun importOnce(context: Context, prefixes: List<String>, files: List<String> = emptyList()): Boolean {
         val prefs = FluxPrefs.get(context)
         if (prefs.getBoolean(KEY_DONE, false)) return false
         if (!FluxApp.KEYBOARD.installed(context)) {
@@ -43,9 +46,35 @@ object FluxMigration {
             }
             count++
         }
+        if (files.isNotEmpty()) {
+            val given = FluxLink.call(context, FluxApp.KEYBOARD, LinkMethods.LEGACY_FILES, null,
+                Bundle().apply { putStringArray("paths", files.toTypedArray()) })
+            for (path in files) {
+                val bytes = given?.getByteArray(path) ?: continue
+                val target = java.io.File(context.filesDir, path)
+                if (target.exists() || !safe(path)) continue
+                runCatching {
+                    target.parentFile?.mkdirs()
+                    target.writeBytes(bytes)
+                    count++
+                }
+            }
+        }
         edit.putBoolean(KEY_DONE, true).apply()
-        FluxLog.w(TAG, "$count settings taken over from Flux Titan Hub")
+        FluxLog.w(TAG, "$count settings and files taken over from Flux Titan Hub")
         return count > 0
+    }
+
+    /** A plain path under the app's files: no way out of them. */
+    private fun safe(path: String) = path.isNotEmpty() && !path.startsWith("/") && path.split('/').none { it == ".." || it.isEmpty() }
+
+    /** Flux Keyboard's side: the files at [paths] under [filesDir] (only those under [allowed] folders), each as its bytes. */
+    fun answerFiles(filesDir: java.io.File, paths: List<String>, allowed: List<String>): Bundle = Bundle().apply {
+        for (path in paths) {
+            if (!safe(path) || allowed.none { path.startsWith(it) }) continue
+            val file = java.io.File(filesDir, path)
+            if (file.isFile && file.length() < 1_000_000) runCatching { putByteArray(path, file.readBytes()) }
+        }
     }
 
     /** Flux Keyboard's side: [all] its settings, those named after one of [prefixes] as an answer. */

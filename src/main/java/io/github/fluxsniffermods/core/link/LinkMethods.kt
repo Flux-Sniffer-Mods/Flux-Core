@@ -20,6 +20,8 @@ object LinkMethods {
      * name starts with one of "prefixes" (a string array), as the answer's own keys and values.
      */
     const val LEGACY_PREFS = "legacy_prefs"
+    /** Files Flux Titan Hub kept for a module (its "paths", under its own files), each as its bytes. */
+    const val LEGACY_FILES = "legacy_files"
 
     // ---- Flux Desktop ----
 
@@ -61,8 +63,10 @@ object LinkMethods {
 
     /**
      * The games, A to Z: parallel arrays "ids", "names", "packages" (each comma-separated) and
-     * "launches" (intent URIs that start each, through Flux Gaming), and "art" (each one's art
-     * version). [arg] "launcher": none while the keyboard's quick launcher isn't to list them.
+     * "launches" (intent URIs that start each, through Flux Gaming), "own" (each game's own start),
+     * "art" (each one's art version) and "streamHeights"; "xbox_launch", "xbox_art" and "games_app"
+     * for Xbox Cloud Gaming and the Games app. [arg] "launcher": none while the keyboard's quick
+     * launcher isn't to list them.
      */
     const val GAMES = "games"
     /** A game's art, as a file from Flux Gaming's provider: art/<id>/<cover|portrait>. */
